@@ -12,7 +12,7 @@ This is a simple web application that generates a color scheme based on a user-s
 
 ## Demo
 
-You can see a live demo of the Color Scheme Generator [here](https://your-demo-link.com).
+You can see a live demo of the Color Scheme Generator [here](https://shiny-kringle-2f5477.netlify.app).
 
 ## Technologies Used
 
