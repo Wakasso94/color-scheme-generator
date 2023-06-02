@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    background: rgb(2,0,36);
+    padding-top: 5em;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+#container{
+    background-color: #1F2937;
+    width: 34.375em;
+    height: 36.375em;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 34.375em;
+    height: 5.625em;
+    background: #1F2937;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2em;
+}
+
+#colorInput{
+    width: 48px;
+    height: 42px;
+    border: 0.5px solid #313131;
+}
+
+#modeDropdown{
+    padding: 9px 13px;
+    width: 312px;
+    height: 42px;
+    background: #1F293A;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: aliceblue;
+}
+
+#generateButton{
+    height: 42px;
+    background: #3D4B60;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 0 0.8em;
+    cursor: pointer;
+}
+
+#colorSchemeOutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+  
+.colorSection {
+    width: 112px;
+    height: 412px;
+}
+  
+.colorValue, .colorName {
+    width: 112px;
+    border-right: 1px solid  rgba(255, 255, 255, 0.2);
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+.colorName {
+    text-align: center;
+    top: 65px;
+}
